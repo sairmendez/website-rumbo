@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+header {background: url(../img/bg-header.png);
+width: 100%;
+height: 120vh;
+background-size: cover;
+padding-top: 40px;
+}
+body { font-family: 'Patrick Hand SC', cursive;
+    margin:0;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul{
+display:flex;   
+margin:0;
+padding: 0;
+}
+header nav ul li{
+    list-style: none;
+    margin: 20px;
+   
+}
+
+header nav ul li a{
+color: #ffffff; 
+font-size: 25px;  
+text-decoration: none; 
+transition: .4s;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+
+    
+}
+header #hero    {
+    text-align-last: center;
+    margin-top: 200px;
+} 
+header #hero  h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 0;
+}
+header #hero  p{
+    margin: 0;
+    font-size: 30px;
+    color: yellow;
+}
+header #hero  button{
+    background: yellow;
+    color: gray;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 10px 30px ;
+    margin-top: 80px;
+}
+HEADER NAV A{
+    transition: .4s;
+}
+HEADER NAV A:hover{
+    transform:scale(1.1);
+}
+
+main #planes{
+    padding: 100px 0;
+    text-align: center ;
+
+}
+.container{
+    width: 1200px ;
+    margin: 0 auto;
+    background: red;
+
+}
+main #planes h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+main #planes p{
+    font-size: 20px;
+
+}
+main #planes .row .card-plan{
+    background: red;
+    width: 30%;
+    position: relative;
+
+}
+main #planes .row .card-plan h3{
+    color: yellow;
+    font-size: 26px;
+   margin: 0;
+   position: absolute;
+   top: 110px;
+   right: 0;
+   left: 0;
+   text-align: center;
+}
+main #planes .row .card-plan p{
+    margin: 0;
+}
+main #planes .row {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+MAIN #DESTINOS{
+background: URL(../img/bg-destinos.png);
+padding: 110PX 0 40PX 0;
+background-size: cover;
+}
+
+MAIN #CONTACTO {
+    background: yellow;
+    padding: 100PX 0 150PX;
+    text-align: center;
+}
+
+MAIN #CONTACTO h2{
+    font-size: 20PX;
+    font-weight: 500;
+}
+
+MAIN #CONTACTO FORM input{
+width: 35%;
+font-size: 20PX;
+padding: 12PX 15PX;
+margin: 20PX;
+}
+
+MAIN #CONTACTO p{
+    font-size: 20PX;
+    font-weight: 500;
+}
+
+main #CONTACTO FORM SELECT{
+width: 35%;
+font-size: 20PX;
+padding: 12PX 15px;
+margin: 20PX;
+}
+
+main #CONTACTO form button{
+    padding: 12px 70px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: yellow(116, 116,9);
+
+
+}
